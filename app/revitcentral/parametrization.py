@@ -6,3 +6,4 @@ class RevitCentralParametrization(Parametrization):
       gemaal_parameters.user_case = Section("Geometry selection")
       gemaal_parameters.user_case.new = GeometryMultiSelectField("Select geometry")
       gemaal_parameters.user_case.file = FileField("IFC from Revit")
+      
